@@ -1,4 +1,4 @@
-import { MENU, PATHS } from '@/constants/pages'
+import { PATHS } from '@/constants/pages'
 import translate from '@/i18n/translate'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -18,7 +18,7 @@ export const Navigation: React.FC = () => {
       <nav className={css.wrapper}>
          <Image src='/assets/images/svg/logo-full.svg' width={60} height={60} alt='logo' style={{ margin: '0 auto' }} />
          <ul>
-            {MENU.map((opt) => {
+            {/* {MENU.map((opt) => {
                const [id] = Object.keys(opt)
                const [value] = Object.values(opt)
                const isCurrentPage = id === currentPage
@@ -51,7 +51,7 @@ export const Navigation: React.FC = () => {
                      </ul>
                   </div>
                )
-            })}
+            })} */}
          </ul>
       </nav>
    )
