@@ -21,14 +21,14 @@ export default LiveStockPage
 export const getServerSideProps: GetServerSideProps = async ({ locale, query }) => {
    const collection = await data_collector(page_ID, locale, serialize)
 
-   const page = query.page || 1
-   const res = await fetch(`http://localhost:3000/api/getGoods?page=${page}`)
-   const goods = await res.json()
+   // const page = query.page || 1
+   // const res = await fetch(`http://localhost:3000/api/getGoods?page=${page}`)
+   // const goods = await res.json()
 
    const data = {
       seo: collection?.seo || {},
-      content: collection?.content || {},
-      goods: goods || []
+      content: collection?.content || {}
+      // goods: goods || []
    }
 
    return {

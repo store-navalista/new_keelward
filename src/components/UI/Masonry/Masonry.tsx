@@ -7,7 +7,7 @@ import css from './Masonry.module.css'
 interface MasonryItem {
    id: string | number
    height: number
-   image: string
+   url: string
 }
 
 interface GridItem extends MasonryItem {
@@ -90,29 +90,17 @@ const Masonry: React.FC<MasonryProps> = ({ data, zoomHandler }) => {
 
    return (
       <div ref={ref} className={css.masonry} style={{ height: Math.max(...heights) }}>
-         {transitions((style, item) => (
-            <a.div key={item.id} onClick={() => zoomHandler(item.image)} style={style}>
-               <div>
-                  <Image src={item.image} fill alt='services' style={{ objectFit: 'cover' }} />
-               </div>
-            </a.div>
-         ))}
+         {transitions((style, item) => {
+            return (
+               <a.div key={item.id} onClick={() => zoomHandler(`${item.url}${item.id}.jpg`)} style={style}>
+                  <div>
+                     <Image src={`${item.url}min-${item.id}.jpg`} fill alt='services' style={{ objectFit: 'cover' }} />
+                  </div>
+               </a.div>
+            )
+         })}
       </div>
    )
 }
 
 export default Masonry
-{
-   /* <Image src='/assets/certificates/cert_thumb.jpg' fill alt='certificate' />
-            </div>
-         </motion.div>
-         {isZoom && (
-            <ZoomBlock
-               imageUrl='/assets/certificates/cert.jpg'
-               onClose={() => {
-                  setisZoom(false)
-               }}
-            />
-         )} */
-}
-// zoomHandler

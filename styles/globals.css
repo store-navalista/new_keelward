@@ -5,10 +5,10 @@
 html {
    position: relative;
    font-family: var(--font-g-regular);
-   /* cursor: none; */
+   cursor: none;
    button,
    a {
-      /* cursor: none; */
+      cursor: none;
       font-family: var(--font-g-regular);
    }
 }

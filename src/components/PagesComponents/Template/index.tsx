@@ -10,16 +10,16 @@ export const Template: FC<{ page_ID: PAGES_IDs; type?: 'pictured' | 'heading' }>
    const ref = useRef(null)
 
    const data = [
-      { id: 1, image: `/assets/images/pages/${page_ID}/1.jpg`, height: 200 },
-      { id: 2, image: `/assets/images/pages/${page_ID}/2.jpg`, height: 300 },
-      { id: 3, image: `/assets/images/pages/${page_ID}/3.jpg`, height: 200 },
-      { id: 4, image: `/assets/images/pages/${page_ID}/4.jpg`, height: 300 },
-      { id: 5, image: `/assets/images/pages/${page_ID}/5.jpg`, height: 300 },
-      { id: 6, image: `/assets/images/pages/${page_ID}/6.jpg`, height: 300 },
-      { id: 7, image: `/assets/images/pages/${page_ID}/7.jpg`, height: 300 },
-      { id: 8, image: `/assets/images/pages/${page_ID}/8.jpg`, height: 300 },
-      { id: 9, image: `/assets/images/pages/${page_ID}/9.jpg`, height: 300 },
-      { id: 10, image: `/assets/images/pages/${page_ID}/10.jpg`, height: 200 }
+      { id: 1, url: `/assets/images/pages/${page_ID}/`, height: 200 },
+      { id: 2, url: `/assets/images/pages/${page_ID}/`, height: 300 },
+      { id: 3, url: `/assets/images/pages/${page_ID}/`, height: 200 },
+      { id: 4, url: `/assets/images/pages/${page_ID}/`, height: 300 },
+      { id: 5, url: `/assets/images/pages/${page_ID}/`, height: 300 },
+      { id: 6, url: `/assets/images/pages/${page_ID}/`, height: 300 },
+      { id: 7, url: `/assets/images/pages/${page_ID}/`, height: 300 },
+      { id: 8, url: `/assets/images/pages/${page_ID}/`, height: 300 },
+      { id: 9, url: `/assets/images/pages/${page_ID}/`, height: 300 },
+      { id: 10, url: `/assets/images/pages/${page_ID}/`, height: 200 }
    ]
 
    const [zoomOptions, setZoomOptions] = useState({

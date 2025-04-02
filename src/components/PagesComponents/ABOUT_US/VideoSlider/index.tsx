@@ -1,10 +1,9 @@
 import dynamic from 'next/dynamic'
-import React, { CSSProperties, FC, useRef, useState } from 'react'
+import React, { FC, useRef, useState } from 'react'
 import ReactPlayer from 'react-player'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import css from './index.module.css'
 import { Navigation } from 'swiper/modules'
-
 import 'swiper/css'
 import 'swiper/css/navigation'
 
