@@ -31,7 +31,6 @@ function AppWrapper({ Component, pageProps }: IAppWrapperProps) {
 
    return (
       <MainLayout>
-         {/* <CustomCursor /> */}
          {showCookieNotice && <CookieNotice />}
          <Component {...pageProps} />
       </MainLayout>
@@ -42,7 +41,7 @@ const MyApp = ({ Component, pageProps }: IAppWrapperProps) => {
    return (
       <Provider store={store}>
          <CookiesProvider>
-            <I18nProvider>
+            <I18nProvider locale={pageProps.locale}>
                <>
                   <CustomCursor />
                   <AppWrapper Component={Component} pageProps={pageProps} />

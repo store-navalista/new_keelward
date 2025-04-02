@@ -1,6 +1,4 @@
-import useCurrentLanguage from '@/components/hooks/useCurrentLanguage'
-import React, { Fragment, useEffect } from 'react'
-import { Cookies } from 'react-cookie'
+import React, { Fragment } from 'react'
 import { IntlProvider } from 'react-intl'
 import { LOCALES } from './locales'
 import messages from './messages'
@@ -11,17 +9,14 @@ interface IProvider {
 }
 
 const Provider = ({ children, locale }: IProvider) => {
-   const language = useCurrentLanguage()
-   const cookies = new Cookies().get('language')
-
-   locale = LOCALES[language].slice(0, 2) || LOCALES.en
-
-   useEffect(() => {
-      if (cookies) locale = LOCALES[cookies]
-   }, [])
+   const unicodeLang = LOCALES[locale === 'ge' ? 'ka' : locale] || navigator.language
 
    return (
-      <IntlProvider locale={locale || navigator.language} textComponent={Fragment} messages={messages[locale]}>
+      <IntlProvider
+         locale={unicodeLang || navigator.language}
+         textComponent={Fragment}
+         messages={messages[unicodeLang]}
+      >
          {children}
       </IntlProvider>
    )

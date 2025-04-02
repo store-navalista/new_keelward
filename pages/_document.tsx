@@ -5,8 +5,13 @@ import type { DocumentContext } from 'next/document'
 class MyDocument extends Document {
    static async getInitialProps(ctx: DocumentContext) {
       const initialProps = await Document.getInitialProps(ctx)
+      let locale = ctx.locale || 'en'
 
-      return { ...initialProps }
+      if (ctx.locale === 'ge') {
+         locale = 'ka'
+      }
+
+      return { ...initialProps, locale }
    }
 
    render() {

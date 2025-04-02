@@ -1,7 +1,7 @@
 import { LOCALES } from '../locales'
 
 export default {
-   [LOCALES.ge]: {
+   [LOCALES.ka]: {
       'company': 'Keelward',
       'page-title-HOME': 'მთავარი',
       'section-title-SERVICES': 'სერვისები',

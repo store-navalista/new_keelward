@@ -26,7 +26,7 @@ const MainServiceLink: FC<{ id: string }> = ({ id }) => {
    const isHover = useHover({ ref, isGlobal: true })
 
    return (
-      <div ref={ref}>
+      <div ref={ref} key={'div-' + id}>
          <GearLink isHover={isHover} className={css.main_service_link} href={PATHS[id].href}>
             {translate(`section-title-${id}`)}
          </GearLink>
@@ -63,7 +63,7 @@ const CustomBlock: FC<{ option: OptionType }> = ({ option }) => {
             const { id, href } = opt
 
             return (
-               <li key={id}>
+               <li key={'li-' + id}>
                   <CustomLink {...{ id, href }} />
                </li>
             )
@@ -88,10 +88,14 @@ const Options: FC<NavigateItemType> = ({ id, options }) => {
                {isSingle ? (
                   <CustomSingleBlock options={options} />
                ) : (
-                  options.map((option) => {
+                  options.map((option, index) => {
                      const { id, opt } = option
 
-                     return opt ? <CustomBlock option={option} /> : <MainServiceLink id={id} />
+                     return opt ? (
+                        <CustomBlock key={`custom-block-${index}`} option={option} />
+                     ) : (
+                        <MainServiceLink key={`main-service-link-${index}`} id={id} />
+                     )
                   })
                )}
             </MotionCustom>

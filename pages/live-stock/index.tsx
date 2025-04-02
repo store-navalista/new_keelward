@@ -27,7 +27,8 @@ export const getServerSideProps: GetServerSideProps = async ({ locale, query }) 
 
    const data = {
       seo: collection?.seo || {},
-      content: collection?.content || {}
+      content: collection?.content || {},
+      locale
       // goods: goods || []
    }
 

@@ -68,11 +68,7 @@ const Language: FC = () => {
                   const { loc, title } = l
                   const isActive = loc.substring(0, 2) === currentLang
 
-                  return (
-                     <>
-                        <Lang {...{ title, isActive, loc, changeLanguage }} />
-                     </>
-                  )
+                  return <Lang key={loc} {...{ title, isActive, loc, changeLanguage }} />
                })}
             </MotionCustom>
          )}

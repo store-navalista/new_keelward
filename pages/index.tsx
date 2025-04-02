@@ -35,7 +35,8 @@ export const getServerSideProps: GetServerSideProps = async ({ locale }) => {
    const collection = await data_collector(page_id, locale, serialize)
    const data = {
       seo: collection?.seo || {},
-      content: collection?.content || {}
+      content: collection?.content || {},
+      locale
    }
 
    return {
