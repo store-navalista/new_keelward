@@ -1,0 +1,65 @@
+export default {
+   'company': { defaultMessage: 'Keelward' },
+   'page-title-HOME': { defaultMessage: 'Home' },
+   'section-title-SERVICES': { defaultMessage: 'Services' },
+   'section-title-MAIN': { defaultMessage: 'Main' },
+   'section-title-MT_SERVICES': { defaultMessage: 'Marine Technical Services' },
+   'section-title-S_SUPPLY': { defaultMessage: 'Ship Supply' },
+   'section-title-COMPANY': { defaultMessage: 'Company' },
+   'page-title-ABOUT_US': { defaultMessage: 'About Us' },
+   'page-title-CONTACTS': { defaultMessage: 'Contacts' },
+   'page-title-CERTIFICATES': { defaultMessage: 'Certificates' },
+   'page-title-LIVE_STOCK': { defaultMessage: 'Live Stock' },
+   'page-title-MT_SERVICES': { defaultMessage: 'Marine Technical Services' },
+   'page-title-S_SUPPLY': { defaultMessage: 'Ship Supply' },
+   'page-title-SHIP_REPAIR': { defaultMessage: 'Ship Repair' },
+   'page-title-RIDING_TEAMS': { defaultMessage: 'Riding Teams' },
+   'page-title-UTM': { defaultMessage: 'UTM' },
+   'page-title-NEWS': { defaultMessage: 'News' },
+
+   'desc-SHIP_REPAIR': { defaultMessage: 'Comprehensive repair services to keep your vessel in top condition, ensuring safety and efficiency.' },
+   'desc-RIDING_TEAMS': { defaultMessage: 'Skilled specialists performing repairs and maintenance while your ship remains in operation.' },
+   'desc-UTM': { defaultMessage: 'Accurate ultrasonic thickness measurements to assess hull integrity and ensure compliance.' },
+   'desc-S_SUPPLY': { defaultMessage: 'Ship Supply & Marine Provisions – Global Delivery of Spares, Safety Gear & Stores. Reliable 24/7 Support.' },
+   'desc-MT_SERVICES': { defaultMessage: 'Marine Technical Solutions – HVAC, electrical, engine & hull repairs. Certified engineers, worldwide vessel support.' },
+   'desc-ABOUT_US': { defaultMessage: 'Keelward offers expert marine services, including ship repair, riding teams, ultrasonic measurements (UTM), and global ship supply. Ensuring safety, compliance, and efficiency for your fleet.' },
+
+   'more-details': { defaultMessage: 'More Details' },
+   'explore-more': { defaultMessage: 'Explore More' },
+   'prev': { defaultMessage: 'Prev' },
+   'next': { defaultMessage: 'Next' },
+   'follow-us': { defaultMessage: 'Follow Us' },
+
+   'HOME-slider-first-desc': { defaultMessage: 'We provide engineering and technical services for the shipbuilding, ship repair and marine industries, including diagnostics, maintenance, modernization and technical consulting of ships and offshore facilities.' },
+   'HOME-slider-second-desc': { defaultMessage: 'Comprehensive ship supply: from provisions to equipment.' },
+   'HOME-certificate-heading': { defaultMessage: 'Keelward LLC is certified by the Croatian Register of Shipping for ship power, systems, and electrical maintenance.' },
+   'HOME-mt-services-heading': { defaultMessage: 'Marine Technical Services is certified for ship repair, riding teams, and UTM, ensuring high-quality maritime maintenance.' },
+
+   'SHIP_REPAIR-slogan': { defaultMessage: 'Reliable Solutions for Vessel Maintenance' },
+   'RIDING_TEAMS-slogan': { defaultMessage: 'Expert Onboard Repair Anywhere' },
+   'UTM-slogan': { defaultMessage: 'Precise Thickness Measurements for Safety' },
+
+   '404.button': { defaultMessage: 'To main page' },
+   'cookie-notive-accept': { defaultMessage: 'We use cookies to ensure that we give you the best experience on our website. If you continue to use this site we will assume that you are happy with it.' },
+   'cookie-notive-privacy': { defaultMessage: 'Privacy policy' },
+   'ok': { defaultMessage: 'Ok' },
+
+   'why-choose-us': { defaultMessage: 'Why Choose Us' },
+   'why-choose-us-description': { defaultMessage: 'Need professional ship repair services? Get in touch with our team today to discuss your vessel’s requirements and schedule a service.' },
+   'why-choose-us-first': { defaultMessage: 'Compliance with international maritime regulations and classification society standards.' },
+   'why-choose-us-second': { defaultMessage: 'Mobile repair teams available for deployment worldwide.' },
+   'why-choose-us-third': { defaultMessage: 'Fast response times for urgent and emergency repairs.' },
+   'why-choose-us-fourth': { defaultMessage: 'Minimizing downtime with efficient repair strategies.' },
+
+   'footer-slogan': { defaultMessage: 'We understand that choosing the right service is crucial. Keelward LLC provides quality services and always values ​​its reputation.' },
+   'footer-trademark-disclaimer': { defaultMessage: 'Disclaimer: All trademarks, trade names, or logos belong to the respective companies and are used for information purpose only.' },
+
+   'stock-nav-0': { defaultMessage: 'Deck and Engine Room Supplies' },
+   'stock-nav-1': { defaultMessage: 'Safety Equipment' },
+   'stock-nav-2': { defaultMessage: 'Marine Electronics and Communication' },
+   'stock-nav-3': { defaultMessage: 'Cleaning and Hygiene Products' },
+   'stock-nav-4': { defaultMessage: 'Luggage and Crew Necessities' },
+   'stock-nav-5': { defaultMessage: 'Fuel and Lubricants' },
+   'stock-nav-6': { defaultMessage: 'Ship Repair and Maintenance' }
+}
+

@@ -1,0 +1,41 @@
+.cert {
+   position: relative;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 250px;
+   .substrate {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      /* background-image: url(/assets/images/svg/bg-triangles.svg); */
+      background-image: url(/assets/images/svg/template-bg.svg);
+      background-position: center;
+      /* background-size: 20%; */
+      background-size: cover;
+   }
+   .content {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      z-index: 2;
+      .card {
+         border: 3px solid var(--color-blue);
+         position: relative;
+         height: 500px;
+         aspect-ratio: 0.71;
+         translate: 0 150px;
+         border-radius: 8px;
+         overflow: hidden;
+      }
+      h3 {
+         text-align: left;
+         font-size: 32px;
+         font-family: var(--font-g-semibold);
+         color: #fff;
+         max-width: 600px;
+         line-height: 1.3;
+      }
+   }
+}
