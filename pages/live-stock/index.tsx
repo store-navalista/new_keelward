@@ -11,7 +11,7 @@ const LiveStockPage: NextPage = ({ seo, goods }: any) => {
    return (
       <>
          <Seo {...seo} />
-         <LiveStock goods={goods} />
+         {/* <LiveStock goods={goods} /> */}
       </>
    )
 }

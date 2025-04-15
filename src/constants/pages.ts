@@ -19,7 +19,7 @@ export type PathsType = {
    [key in PAGES_IDs]: PathConfig
 }
 
-export const PATHS: PathsType = {
+export const PATHS: Partial<PathsType> = {
    HOME: {
       href: '/'
    },
@@ -91,9 +91,9 @@ export const NAV: NavigateItemType[] = [
                { id: 'RIDING_TEAMS', href: PATHS.RIDING_TEAMS.href },
                { id: 'UTM', href: PATHS.UTM.href }
             ]
-         },
-         { id: 'S_SUPPLY' }
+         }
       ]
    },
-   { id: 'LIVE_STOCK', href: PATHS.LIVE_STOCK.href, type: 'type A' }
+   { id: 'S_SUPPLY', href: PATHS.S_SUPPLY.href, type: 'type A' }
+   // { id: 'LIVE_STOCK', href: PATHS.LIVE_STOCK.href, type: 'type A' }
 ]

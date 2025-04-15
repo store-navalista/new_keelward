@@ -20,7 +20,7 @@ export default {
    'desc-SHIP_REPAIR': { defaultMessage: 'Comprehensive repair services to keep your vessel in top condition, ensuring safety and efficiency.' },
    'desc-RIDING_TEAMS': { defaultMessage: 'Skilled specialists performing repairs and maintenance while your ship remains in operation.' },
    'desc-UTM': { defaultMessage: 'Accurate ultrasonic thickness measurements to assess hull integrity and ensure compliance.' },
-   'desc-S_SUPPLY': { defaultMessage: 'Ship Supply & Marine Provisions – Global Delivery of Spares, Safety Gear & Stores. Reliable 24/7 Support.' },
+   'desc-S_SUPPLY': { defaultMessage: 'Dependable supply of marine spare parts: ready-made solutions with integrated logistics and a verified partner network. Our expertise ensures your confidence.' },
    'desc-MT_SERVICES': { defaultMessage: 'Marine Technical Solutions – HVAC, electrical, engine & hull repairs. Certified engineers, worldwide vessel support.' },
    'desc-ABOUT_US': { defaultMessage: 'Keelward offers expert marine services, including ship repair, riding teams, ultrasonic measurements (UTM), and global ship supply. Ensuring safety, compliance, and efficiency for your fleet.' },
 
@@ -29,6 +29,7 @@ export default {
    'prev': { defaultMessage: 'Prev' },
    'next': { defaultMessage: 'Next' },
    'follow-us': { defaultMessage: 'Follow Us' },
+   'let-go': { defaultMessage: 'Let\'s go' },
 
    'HOME-slider-first-desc': { defaultMessage: 'We provide engineering and technical services for the shipbuilding, ship repair and marine industries, including diagnostics, maintenance, modernization and technical consulting of ships and offshore facilities.' },
    'HOME-slider-second-desc': { defaultMessage: 'Comprehensive ship supply: from provisions to equipment.' },
@@ -60,6 +61,22 @@ export default {
    'stock-nav-3': { defaultMessage: 'Cleaning and Hygiene Products' },
    'stock-nav-4': { defaultMessage: 'Luggage and Crew Necessities' },
    'stock-nav-5': { defaultMessage: 'Fuel and Lubricants' },
-   'stock-nav-6': { defaultMessage: 'Ship Repair and Maintenance' }
-}
+   'stock-nav-6': { defaultMessage: 'Ship Repair and Maintenance' },
 
+   'S_SUPPLY-heading': { defaultMessage: 'Ship Supply' },
+   'S_SUPPLY-desc': { defaultMessage: 'Dependable supply of marine spare parts: from provisions to equipment. Our expertise ensures your confidence.' },
+   'S_SUPPLY-right-block': { defaultMessage: 'Urgent request? Get in touch quickly – fill out the form for a 5-minute response' },
+   'S_SUPPLY-info-expertise': { defaultMessage: 'Best expertise' },
+   'S_SUPPLY-info-expertise-desc-1': { defaultMessage: 'Our team expertly analyzes your application to offer the best solution' },
+   'S_SUPPLY-info-expertise-desc-2': { defaultMessage: 'More than 5000 requisitions processed' },
+   'S_SUPPLY-info-prices': { defaultMessage: 'Competitive prices' },
+   'S_SUPPLY-info-prices-desc-1': { defaultMessage: 'Find a lower price? We\'ll give a discount to you!' },
+   'S_SUPPLY-info-prices-desc-2': { defaultMessage: 'Our offer is typically 5% more favorable than the competition' },
+   'S_SUPPLY-info-save': { defaultMessage: 'Save and Fast' },
+   'S_SUPPLY-info-save-desc-1': { defaultMessage: 'We organize logistics in the shortest possible time to any part of the world' },
+   'S_SUPPLY-info-save-desc-2': { defaultMessage: 'The Right product, in the Right quantity, in the Right condition, at the Right place, at the Right time, to the Right customer, at the Right price' },
+   'S_SUPPLY-call-us': { defaultMessage: 'Have a question or just want to say hi? We’re only a message away.' },
+   'S_SUPPLY-presence-block': { defaultMessage: 'Global presence' },
+   'S_SUPPLY-presence-block-desc': { defaultMessage: 'We take care of all logistics and offer you a delivery price along with our spare parts offer. Recognizing the critical importance of timely onboard delivery for vessel safety and punctual sailing, our dedicated logistics team works around the clock, 24/7/365, to ensure seamless operations. We provide comprehensive solutions for your global logistics needs' },
+   'S_SUPPLY-news-title': { defaultMessage: 'Our news' },
+}

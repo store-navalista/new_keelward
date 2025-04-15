@@ -9,7 +9,7 @@ import useHover from '@/hooks/useHover'
 import { Serv } from '../services'
 
 const services = ['MT_SERVICES', 'SHIP_REPAIR', 'RIDING_TEAMS', 'UTM', 'S_SUPPLY']
-const company = ['HOME', 'ABOUT_US', 'CONTACTS', 'NEWS', 'LIVE_STOCK']
+const company = ['HOME', 'ABOUT_US', 'CONTACTS', 'NEWS']
 
 const first_block = [
    { type: 'mail', cnt: 'mail_1' },
@@ -85,6 +85,7 @@ const Footer: FC = () => {
                <div>
                   <div>
                      <h3>{translate('follow-us')}</h3>
+                     <SocialLink type='instagram' />
                      <SocialLink type='linkedin' />
                   </div>
                   <p>{SOCIAL.address}</p>

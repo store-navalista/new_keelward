@@ -23,7 +23,7 @@ export default {
       'desc-SHIP_REPAIR': 'Comprehensive repair services to keep your vessel in top condition, ensuring safety and efficiency.',
       'desc-RIDING_TEAMS': 'Skilled specialists performing repairs and maintenance while your ship remains in operation.',
       'desc-UTM': 'Accurate ultrasonic thickness measurements to assess hull integrity and ensure compliance.',
-      'desc-S_SUPPLY': 'Ship Supply & Marine Provisions – Global Delivery of Spares, Safety Gear & Stores. Reliable 24/7 Support.',
+      'desc-S_SUPPLY': 'Dependable supply of marine spare parts: ready-made solutions with integrated logistics and a verified partner network. Our expertise ensures your confidence.',
       'desc-MT_SERVICES': 'Marine Technical Solutions – HVAC, electrical, engine & hull repairs. Certified engineers, worldwide vessel support.',
       'desc-ABOUT_US': 'Keelward offers expert marine services, including ship repair, riding teams, ultrasonic measurements (UTM), and global ship supply. Ensuring safety, compliance, and efficiency for your fleet.',
 
@@ -33,6 +33,7 @@ export default {
       'prev': 'Prev',
       'next': 'Next',
       'follow-us': 'Follow Us',
+      'let-go': 'Let\'s go',
 
       'HOME-slider-first-desc': 'We provide engineering and technical services for the shipbuilding, ship repair and marine industries, including diagnostics, maintenance, modernization and technical consulting of ships and offshore facilities.',
       'HOME-slider-second-desc': 'Comprehensive ship supply: from provisions to equipment.',
@@ -64,6 +65,23 @@ export default {
       'stock-nav-3': 'Cleaning and Hygiene Products',
       'stock-nav-4': 'Luggage and Crew Necessities',
       'stock-nav-5': 'Fuel and Lubricants',
-      'stock-nav-6': 'Ship Repair and Maintenance'
-   }
+      'stock-nav-6': 'Ship Repair and Maintenance',
+
+      'S_SUPPLY-heading': 'Ship Supply',
+      'S_SUPPLY-desc': 'Dependable supply of marine spare parts: from provisions to equipment. Our expertise ensures your confidence.',
+      'S_SUPPLY-right-block': 'Urgent request? Get in touch quickly – fill out the form for a 5-minute response',
+      'S_SUPPLY-info-expertise': 'Best expertise',
+      'S_SUPPLY-info-expertise-desc-1': 'Our team expertly analyzes your application to offer the best solution',
+      'S_SUPPLY-info-expertise-desc-2': 'More than 5000 requisitions processed',
+      'S_SUPPLY-info-prices': 'Competitive prices',
+      'S_SUPPLY-info-prices-desc-1': 'Find a lower price? We\'ll give a discount to you!',
+      'S_SUPPLY-info-prices-desc-2': 'Our offer is typically 5% more favorable than the competition',
+      'S_SUPPLY-info-save': 'Save and Fast',
+      'S_SUPPLY-info-save-desc-1': 'We organize logistics in the shortest possible time to any part of the world',
+      'S_SUPPLY-info-save-desc-2': 'The Right product, in the Right quantity, in the Right condition, at the Right place, at the Right time, to the Right customer, at the Right price',
+      'S_SUPPLY-call-us': 'Have a question or just want to say hi? We’re only a message away.',
+      'S_SUPPLY-presence-block': 'Global presence',
+      'S_SUPPLY-presence-block-desc': 'We take care of all logistics and offer you a delivery price along with our spare parts offer. Recognizing the critical importance of timely onboard delivery for vessel safety and punctual sailing, our dedicated logistics team works around the clock, 24/7/365, to ensure seamless operations. We provide comprehensive solutions for your global logistics needs',
+      'S_SUPPLY-news-title': 'Our news',
+   },
 }

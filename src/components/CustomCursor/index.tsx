@@ -18,7 +18,7 @@ const CustomCursor = () => {
    }, [])
 
    return (
-      <div ref={cursorRef} className={css.custom_cursor}>
+      <div style={{ display: 'none' }} ref={cursorRef} className={css.custom_cursor}>
          <div className={`${css.cursor_inner} ${isHovered ? css.hovered : ''}`} />
       </div>
    )
